@@ -72,3 +72,10 @@ append(newlist,10,after=1)
 > print(newlist)
 NULL
 > #or else to empty the list, use list_name[-symbol] to delete a particular element
+ newlist1 <- list(col1 <-c("a", 20), col2 <-c("year", 40, 50, "hi"))
+> print(newlist1)
+[[1]]
+[1] "a"  "20"
+
+[[2]]
+[1] "year" "40"   "50"   "hi"
